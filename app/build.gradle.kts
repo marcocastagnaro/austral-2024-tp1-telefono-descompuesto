@@ -28,6 +28,7 @@ dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
 
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     implementation("org.springframework.boot:spring-boot-starter-web")
